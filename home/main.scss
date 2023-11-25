@@ -1,0 +1,359 @@
+@import "./variables";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.all {
+  width: 100%;
+  overflow-x: hidden;
+}
+a {
+  color: inherit;
+}
+
+.navbar {
+  width: 85%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+  gap: 50px;
+  transition: 1.5s;
+  justify-content: space-between;
+  align-items: center;
+}
+.buts {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 35px;
+}
+label {
+  display: none;
+}
+.input1 {
+  display: none;
+}
+.get {
+  @include btn2;
+}
+
+.show {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 145px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rec {
+  width: 500px;
+}
+.yozuv {
+  width: auto;
+}
+.log {
+  font-weight: bold;
+  font-size: 52px;
+}
+.lor {
+  font-size: 25px;
+  padding-top: 30px;
+}
+.get1 {
+  @include btn2;
+  margin-top: 30px;
+}
+
+.text {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 120px;
+}
+.our {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+.rasms {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.case {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 120px;
+}
+.case1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.our1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.for {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  display: flex;
+}
+
+.box {
+  width: 250px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  background-image: url(./d.png);
+  background-repeat: no-repeat;
+}
+.det {
+  width: 150px;
+  height: 35px;
+  color: white;
+  background-color: black;
+  border-radius: 20px;
+  margin-top: 280px;
+  margin-bottom: 20px;
+}
+.bosh {
+  width: 70px;
+  height: 35px;
+  margin-top: 280px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  margin-left: 20px;
+  border: none;
+}
+.goru {
+  width: 30px;
+  height: 30px;
+}
+.get2 {
+  text-align: center;
+  margin-top: 35px;
+}
+
+.boshqa {
+  margin-top: 100px;
+}
+.mosh {
+  width: 90%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.mosh1 {
+  width: 30%;
+  height: auto;
+  text-align: center;
+}
+.best {
+  font-size: 30px;
+  padding-top: 25px;
+}
+.dol {
+  padding-top: 10px;
+  color: gray;
+  font-size: 22px;
+}
+
+.ours1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top: 100px;
+}
+
+.last {
+  width: 80%;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100px;
+}
+.yozu {
+  width: auto;
+  margin-left: 80px;
+}
+.hel {
+  font-size: 35px;
+  color: rgba(57, 61, 69, 1);
+}
+.em {
+  font-size: 20px;
+  padding-top: 50px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.adr {
+  font-weight: bold;
+  font-size: 26px;
+  padding-top: 30px;
+}
+.em1 {
+  font-size: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.foot {
+  width: 100%;
+  height: auto;
+  margin-top: 120px;
+  background-color: rgba(72, 69, 67, 1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 50px;
+}
+.shop {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.cop {
+  color: white;
+  padding-top: 15px;
+}
+.ics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.xatos {
+  width: 35px;
+  margin: 10px;
+}
+
+@media (max-width: 1150px) {
+  .for {
+    display: block;
+  }
+  .boxes {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .chis {
+    display: none;
+  }
+  .boxes {
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+  .yozu {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .rasm {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  label {
+    display: block;
+  }
+  .navbar input:checked ~ ul {
+    transform: translate(0);
+  }
+  ul {
+    position: fixed;
+    flex-direction: column;
+    background-color: $thicolor;
+    text-align: center;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    right: 0;
+    transform: rotate(180deg);
+    transform-origin: top;
+  }
+  ul label {
+    align-self: flex-end;
+    background-color: $secolor;
+    padding: 5px;
+    border-radius: 5px;
+    color: $thicolor;
+  }
+
+  .mosh {
+    display: block;
+  }
+  .mosh1 {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .foot {
+    display: block;
+  }
+  .for {
+    width: 100%;
+  }
+  .boxes {
+    margin: 20px;
+  }
+}
+
+@media (max-width: 335px) {
+  .navbar {
+    width: 100%;
+  }
+  .grup {
+    display: none;
+  }
+  .mosh1 {
+    width: 100%;
+  }
+  .ics {
+    display: block;
+  }
+  .xatos {
+    width: 30px;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .foot {
+    padding: 10px;
+  }
+  .case {
+    width: 100%;
+  }
+}

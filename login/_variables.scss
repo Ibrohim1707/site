@@ -1,0 +1,10 @@
+$maincolor: black;
+$secolor: red;
+$thicolor: white;
+
+@mixin btn2($btnbgcolor: $maincolor, $color: white, $ptop: 12px, $pleft: 40px) {
+  border: none;
+  background-color: $btnbgcolor;
+  color: $color;
+  padding: $ptop $pleft;
+}
